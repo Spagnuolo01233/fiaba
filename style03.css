@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;700&family=Nerko+One&family=Roboto:ital,wght@0,500;0,900;1,900&display=swap');
+/* questo file css va bene per le pagine da 3 fino alla fine*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Roboto', sans-serif;  
+    overflow: hidden; 
+}
+
+img{
+    width: 100vw;
+    height:115vh;
+    object-fit: contain;
+}
+
+header{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px orchid;
+}
+
+.btn-story{
+    position: absolute;
+    bottom: 5%;
+    width: 30%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 1rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.btn-story p{
+    text-align: justify;
+    max-width: 42rem;
+    margin-inline: auto;
+    line-height: 1.5;
+}
+
+.btn-story a{
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: justify;
+    color: aliceblue;
+    text-shadow: 3px 3px 3px orchid;
+}
+
+@media  screen and (max-width: 1200px) {
+    img{
+        width: 100vw;
+        height: 90vh;
+        margin-left: 0;
+        object-fit:contain;
+    }
+
+    .btn-story{
+        bottom: 3%;
+        height: 37vh;
+        width: fit-content;
+    }
+}

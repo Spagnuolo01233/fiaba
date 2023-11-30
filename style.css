@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;700&family=Nerko+One&family=Roboto:ital,wght@0,500;0,900;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Nerko One', cursive;
+    font-family: 'Roboto', sans-serif;  
+    overflow: hidden;    
+}
+
+video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-100%);
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 5px orchid;
+}
+
+header h1{
+    font-weight: 500;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+header span{
+    font-weight: 800;
+    font-size: 7rem;
+    display: block;
+}
+
+.description{
+    position: absolute;
+    bottom: 15%;
+    width: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    opacity: 0.7;
+}
+
+.description p{
+    text-align: justify;
+    max-width: 42rem;
+    margin-inline: auto;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    opacity: 1;
+}
+
+.description a{
+    text-decoration: none;
+    color: gold;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px orchid ;
+}
+
+.description span{
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
